@@ -10,29 +10,29 @@ In Javascript we can control the flow of code with the help of Condition & Loops
 console.log("\n");
 console.log("Control Flow");
 a = 0;
-console.log("Value of a is " +a);
+console.log("Value of a is " + a);
 if (a == 0) {
-  console.log(true);
+    console.log(true);
 }
 
 
 //if..else 
-if(a>5){
+if (a > 5) {
     console.log("A is greater than 5");
-}else{
+} else {
     console.log("A is less than 5");
 }
 
 
 //if..else if else 
 
-if(a>8){
+if (a > 8) {
     console.log("A is greate than 8 ");
 }
-else if(a>=8){
+else if (a >= 8) {
     console.log("A is greater than equal to 8");
 }
-else{
+else {
     console.log("none of the above");
 }
 
@@ -43,7 +43,7 @@ else{
 
 var fruit = "apple";
 
-switch(fruit){
+switch (fruit) {
     case 'apple':
         console.log("Apple is selected");
         break;
